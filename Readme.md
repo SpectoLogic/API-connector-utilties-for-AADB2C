@@ -22,9 +22,14 @@ Especially when it come to the Extension-App-ID make sure it is
 
 ## Library, Code Generator and usage
 
-This library and its classes and extension method should help you to reduce your effort building request/response classes with custom attributes.
-
+This library and its classes and extension method should help you to reduce your effort building API Connectors for Azure B2C!
 This repository also includes a sample API Connector built as Azure function and shows how to use the library and code generator with custom attributes.
+
+## Just include the following packages from nuget to your Azure Function
+
+- [SpectoLogic.Identity.AADB2C.APIConnectors](https://www.nuget.org/packages/SpectoLogic.Identity.AADB2C.APIConnectors/)
+- [SpectoLogic.Identity.AADB2C.APIConnectors.Generators](https://www.nuget.org/packages/SpectoLogic.Identity.AADB2C.APIConnectors.Generators/)
+
 
 ## Class Overview
 ![Visual representation of Models in SpectoLogic.Identity.AADB2C.APIConnectors.Models](Overview.jpg "SpectoLogic.Identity.AADB2C.APIConnectors.Models")
