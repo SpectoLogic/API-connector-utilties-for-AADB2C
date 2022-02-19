@@ -4,7 +4,11 @@
 
 Azure Active Directory B2C offers the functionality to plug API-Connectors into the sign-up user flows to customize and extend claims.
 
-You can read more about API-Connectors [here](https://docs.microsoft.com/en-us/azure/active-directory-b2c/api-connectors-overview?pivots=b2c-user-flow).
+You can read more about API-Connectors [here](https://docs.microsoft.com/en-us/azure/active-directory-b2c/api-connectors-overview?pivots=b2c-user-flow) and here:
+
+- [Modify sign-up experience](https://docs.microsoft.com/en-us/azure/active-directory-b2c/add-api-connector?pivots=b2c-user-flow)
+- [Enrich tokens with external claims](https://docs.microsoft.com/en-us/azure/active-directory-b2c/add-api-connector-token-enrichment?pivots=b2c-user-flow)
+- [Secure an API connector](https://docs.microsoft.com/en-us/azure/active-directory-b2c/secure-rest-api?tabs=windows&pivots=b2c-user-flow)
 
 Especially when you are dealing with custom user attributes you have to be careful to get the serialization of the claim attributes right, because otherwise they will be simply ignored.
 
@@ -16,7 +20,7 @@ Especially when it come to the Extension-App-ID make sure it is
 - lowercase
 - you have removed all hypens
 
-## Library and Code Generator
+## Library, Code Generator and usage
 
 This library and its classes and extension method should help you to reduce your effort building request/response classes with custom attributes.
 
