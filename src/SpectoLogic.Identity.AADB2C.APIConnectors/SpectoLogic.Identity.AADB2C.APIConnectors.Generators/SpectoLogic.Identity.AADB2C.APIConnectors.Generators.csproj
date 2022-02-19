@@ -13,9 +13,9 @@
 		<Copyright>(c) by SpectoLogic e.U.</Copyright>
 		<NeutralLanguage />
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<Version>1.0.3-alpha</Version>
+		<Version>1.0.4-alpha</Version>
 		<PackageReleaseNotes></PackageReleaseNotes>
-		<RepositoryUrl></RepositoryUrl>
+		<RepositoryUrl>https://github.com/SpectoLogic/API-connector-utilties-for-AADB2C</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
