@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpectoLogic.Identity.AADB2C.APIConnectors.Models.AADIdentity">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\AADIdentity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpectoLogic.Identity.AADB2C.APIConnectors.Models.BaseClaimsRespone">
+    <Position X="8.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\BaseClaimsRespone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpectoLogic.Identity.AADB2C.APIConnectors.Models.ClaimsRequestBase">
+    <Position X="4.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAgAAACAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\ClaimsRequestBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Identities" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpectoLogic.Identity.AADB2C.APIConnectors.Models.ClaimsRequestDefault">
+    <Position X="4.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAABAAAAAgAAAECCAAABAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ClaimsRequestDefault.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpectoLogic.Identity.AADB2C.APIConnectors.Models.CreateUserResponse">
+    <Position X="9" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\CreateUserResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpectoLogic.Identity.AADB2C.APIConnectors.Models.AddClaimsResponse">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\AddClaimsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpectoLogic.Identity.AADB2C.APIConnectors.Models.MessageResponse">
+    <Position X="6.75" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\MessageResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpectoLogic.Identity.AADB2C.APIConnectors.Models.ResponseActions">
+    <Position X="6.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAIAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ResponseActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpectoLogic.Identity.AADB2C.APIConnectors.Models.ErrorMessageResponse">
+    <Position X="6.75" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ErrorMessageResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
